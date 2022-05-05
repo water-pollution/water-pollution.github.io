@@ -54,7 +54,7 @@ a:focus, a:hover {
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+  background-image: linear-gradient(100deg, #44a1f8, #006ace);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -592,6 +592,9 @@ a:focus, a:hover {
 .navbar-brand {
   height: auto;
   padding: 8px 0;
+  font-size: 30px;
+
+  /* background-size: contain; */
 }
 
 .navbar-brand h1 {
