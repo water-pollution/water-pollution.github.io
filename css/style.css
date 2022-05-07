@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
+
 body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
@@ -7,8 +8,8 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
-  font-size: 15px;
+  color: #383838;
+  font-size: 17px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,7 +55,7 @@ a:focus, a:hover {
 
 .btn-main, .btn-main-sm {
   background-color: #21D6BF;
-  background-image: linear-gradient(100deg, #44a1f8, #006ace);
+  background-image: linear-gradient(100deg, #69b7ff, #24adfb);
   color: #fff;
   display: inline-block;
   font-size: 14px;
@@ -304,6 +305,7 @@ a:focus, a:hover {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -315,6 +317,7 @@ a:focus, a:hover {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
+
   40% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -486,11 +489,11 @@ a:focus, a:hover {
   background: #1f2532;
 }
 
-.navigation .navbar-nav > li.active a {
+.navigation .navbar-nav>li.active a {
   color: #fff;
 }
 
-.navigation .navbar-nav > li > a {
+.navigation .navbar-nav>li>a {
   color: #707d8f;
   font-size: 15px;
   line-height: 26px;
@@ -499,18 +502,18 @@ a:focus, a:hover {
 }
 
 @media (max-width: 480px) {
-  .navigation .navbar-nav > li > a {
+  .navigation .navbar-nav>li>a {
     padding: 8px 0 !important;
   }
 }
 
 @media (max-width: 768px) {
-  .navigation .navbar-nav > li > a {
+  .navigation .navbar-nav>li>a {
     padding: 8px 0 !important;
   }
 }
 
-.navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
+.navigation .navbar-nav>li>a:hover, .navigation .navbar-nav>li>a:active, .navigation .navbar-nav>li>a:focus {
   background: none;
   color: #f0326b;
 }
@@ -522,7 +525,7 @@ a:focus, a:hover {
   outline: none;
 }
 
-.navigation .nav .open > a {
+.navigation .nav .open>a {
   background: none;
 }
 
@@ -534,7 +537,7 @@ a:focus, a:hover {
   visibility: visible;
   opacity: 1;
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 .navigation .dropdown .dropdown-item {
@@ -551,16 +554,16 @@ a:focus, a:hover {
 .navigation .dropdown .dropdown-menu {
   border-radius: 0;
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   background-color: #000;
   display: block;
   opacity: 0;
   transition: .3s ease;
   visibility: hidden;
   -webkit-transform: scaleY(0);
-          transform: scaleY(0);
+  transform: scaleY(0);
   transform-origin: top;
 }
 
@@ -570,9 +573,9 @@ a:focus, a:hover {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scaleY(1);
-            transform: scaleY(1);
+    transform: scaleY(1);
     -webkit-transform-origin: unset;
-            transform-origin: unset;
+    transform-origin: unset;
   }
 }
 
@@ -580,7 +583,7 @@ a:focus, a:hover {
   visibility: visible;
   opacity: 1;
   -webkit-transform: scaleY(1);
-          transform: scaleY(1);
+  transform: scaleY(1);
 }
 
 @media (max-width: 992px) {
@@ -679,7 +682,7 @@ a:focus, a:hover {
 
 .video-player .play-icon:hover i {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hero-area-video {
@@ -720,6 +723,14 @@ a:focus, a:hover {
   position: absolute;
   z-index: -1;
 }
+
+@media screen and (max-width: 500px) {
+  #navbar-image{
+    height:23.4px;
+    width:119px;
+  }
+}
+
 
 /*=================================================================
   About us section
@@ -952,7 +963,7 @@ a:focus, a:hover {
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
 }
 
-.contact-meta-block > i {
+.contact-meta-block>i {
   display: block;
   font-size: 50px;
   margin-bottom: 20px;
@@ -1016,12 +1027,12 @@ a:focus, a:hover {
 .portfolio-block:hover:before {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .portfolio-block:hover .caption h4 {
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 .portfolio-block:hover .caption {
@@ -1176,7 +1187,7 @@ a:focus, a:hover {
 
 .team-member:hover img {
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .team-member:hover .mask {
