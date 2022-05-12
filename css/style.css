@@ -4,6 +4,12 @@ body {
   line-height: 1.4;
   font-family: "Titillium Web", sans-serif;
   -webkit-font-smoothing: antialiased;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 p {
@@ -725,9 +731,9 @@ a:focus, a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  #navbar-image{
-    height:23.4px;
-    width:119px;
+  #navbar-image {
+    height: 23.4px;
+    width: 119px;
   }
 }
 

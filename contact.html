@@ -88,7 +88,7 @@ Fixed Navigation
             </button>
             <div class="collapse navbar-collapse" id="navigation">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">
                     Home
                   </a>
@@ -98,14 +98,14 @@ Fixed Navigation
                     aria-haspopup="true" aria-expanded="false">Initiative</a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="cleanwateract.html">Clean Water Act</a>
-                    <a class="dropdown-item" href="#">Safe Drinking Water Act</a>
-                    <a class="dropdown-item" href="#">Rain water harvesting</a>
+                    <a class="dropdown-item" href="safedrinkingwateract.html">Safe Drinking Water Act</a>
+                    <a class="dropdown-item" href="rainwaterharvesting.html">Rain water harvesting</a>
                   </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -173,13 +173,13 @@ Fixed Navigation
               <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
             </div>
 
-            <div id="success" class="success">
+            <div id="error" class="success">
               Thank you. The Mailman is on His Way :)
             </div>
 
-            <div id="error" class="error">
+            <!-- <div id="error" class="error">
               Sorry, don't know what happened. Try later :(
-            </div>
+            </div> -->
 
             <div id="cf-submit">
               <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
@@ -251,9 +251,7 @@ The following part can be removed on Server for On Demand Loading) -->
         From: document.getElementById("email").value,
         Subject: document.getElementById("subject").value,
         Body: document.getElementById("message").value
-      }).then(
-        message => alert(message)
-      );
+      });
     }
   </script>
   <script>
