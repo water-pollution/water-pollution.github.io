@@ -155,7 +155,7 @@ Fixed Navigation
 
         <!-- Contact Form -->
         <div class="contact-form col-md-6 ">
-          <form id="contact-form" onsubmit="sendmail(); reset(); return false;">
+          <form id="contact-form" onsubmit="sendmail(); return false;">
 
             <div class="form-group">
               <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -244,10 +244,10 @@ The following part can be removed on Server for On Demand Loading) -->
   <script>
     function sendmail() {
       Email.send({
-        Host: "smtp.gmail.com",
+        Host: "smtp.elasticemail.com",
         Username: "spikeisgreen@gmail.com",
-        Password: "pkiujnjiroqdxflvi",
-        To: 'kartikgoswami083@gmail.com',
+        Password: "D5A8BD2F446EA084936DFF51DB321A2115C0",
+        To: 'spikeisgreen@gmail.com',
         From: document.getElementById("email").value,
         Subject: document.getElementById("subject").value,
         Body: document.getElementById("message").value
